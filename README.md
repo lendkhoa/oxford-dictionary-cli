@@ -1,16 +1,17 @@
 # oxford-dictionary-cli
-- This simple snippet allows you to look up Oxford dictionary word definition 
+- This simple snippet allows you to look up Oxford dictionary word definitions
 right from the command line
 - The Oxford dictionary offers rich and reliable definitions, thesauruses, and 
-translation to many languages
+translations to many languages
 
 ## Register for an Oxford developer account
 - Follow this [link](https://developer.oxforddictionaries.com/login) to sign up for
 an Oxford developer account.
-    - Free account offers 3K requests per month.
+    - Free account offers 3K requests per month. They have other paid plans
+    if you need more
     - [FAQ](https://developer.oxforddictionaries.com/FAQ#plan_pricing)
 
-- Add the **app_id** and **app_key** in the **CONFIG** object
+- Add the **app_id** and **app_key** in the **CONFIG** object in the **oxford.js**
 
 ## Make an aliases file to search quicker
 - Point your **.bashrc** or **.zshrc** to the **aliases** file
